@@ -1,0 +1,42 @@
+.containe{
+    /* background-color: #46c6ce; */
+    background-image: url('../../assets/bg.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+  }
+
+  
+  .post-img:hover {
+    transform: scale(1.1); 
+  }
+  .post-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .post-img img {
+    transition: transform 0.5s;
+  }
+  
+  .zoom-out {
+    cursor: pointer;
+  }
+  
+  .zoom-out:hover,
+  .zoom-out.zoomed-out {
+    transform: scale(1.2); 
+  }
+
+
+
+
+ 
+
+  

@@ -1,0 +1,58 @@
+.containe{
+    /* background-color: #46c6ce; */
+    background-image: url('../../assets/bg.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.card {
+    margin-top: 20px;
+    border-radius: 15%;
+    background-color: #f3f6ff;
+    text-align: center;
+    width: 325px;
+}
+
+.card-text {
+    color: #757575;
+    padding-bottom: 50px;
+}
+
+.card-title {
+    padding-top: 25px;
+    color: #46C6CE !important;
+    font-weight: 800;
+} 
+
+
+
+
+
+
+.custom-card {
+    width: 250px; /* Adjust the width of the card */
+    margin: 10px; /* Add some margin around the card */
+  }
+  
+  .custom-card .card-body {
+    padding: 10px; /* Reduce padding inside the card */
+  }
+  
+  .custom-card .card-title {
+    font-size: 18px; /* Adjust the title font size */
+    margin-bottom: 10px; /* Reduce space below the title */
+  }
+  
+  .custom-card .card-text {
+    font-size: 14px; /* Adjust the text font size */
+    margin-bottom: 10px; /* Reduce space below the text */
+  }
+  
+  .custom-card .btn {
+    font-size: 14px; /* Adjust the button text size */
+    padding: 5px 10px; /* Reduce button padding */
+  }
+  

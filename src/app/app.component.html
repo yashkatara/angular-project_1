@@ -1,0 +1,34 @@
+'<app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+
+
+
+
+<div class="container-fluid justify-content-center" style="background-color: white;">
+    <!-- Logos -->
+    <ul class="list-inline">
+      <li class="list-inline-item" >
+        <img src="../../../assets/CMMI LOGO.png" alt="CMMI Logo" style="max-height: 80px; padding-TOP: 5%; height:auto">
+      </li>
+      <li class="list-inline-item" >
+        <img src="../../../assets/isaca1.png" alt="ISACA Logo" style="max-height: 80px; padding-TOP: 5%; height:auto">
+      </li>
+      <li class="list-inline-item" >
+        <img src="../../../assets/ECM.png" alt="ECM Logo" style="max-height: 80px; padding-TOP: 5%;height:auto">
+      </li>
+    </ul>
+  </div>
+
+
+<a href="https://wa.me/1234554321" target="blank" class="whatsapp-icon">
+    <i class="fab fa-whatsapp" ></i>
+</a>
+
+<a href="#" class="scroll-top d-flex align-items-center justify-content-center" (click)="scrollToTop()" [class.d-none]="!showScrollTopButton"><i class="fa fa-angle-double-up"></i></a>
+
+<div id="preloader" *ngIf="showPreloader"></div>
+
+

@@ -1,0 +1,28 @@
+.containe{
+  /* background-color: #46c6ce; */
+  background-image: url('../../assets/bg.jpg'); /* Path to your image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.question{
+  font-weight: bold;
+  color: #194376;
+}
+
+h6.text-secondary{
+  color: #46c6ce !important;
+}
+
+.display-2 {
+  font-weight: bold; /* Makes the text bold */
+  color: #46c6ce  !important; /* Sets the color; example blue */
+}
+
+/* If you want to specifically target h2 elements with the class .display-2 */
+h2.display-2 {
+  font-weight: bold; /* Makes the text bold */
+  color: #46c6ce  !important; /* Sets the color; example blue */
+}

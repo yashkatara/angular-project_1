@@ -1,0 +1,35 @@
+.containe{
+    /* background-color: #46c6ce; */
+    background-image: url('../../assets/bg.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+.img {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    width: 425px;
+    float: left;
+    margin-right: 20px;
+}
+.system{
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    
+}
+.sys{
+    color:#46C6CE ;
+    padding-top: 2%;
+
+}
+.mb-4{
+    padding: 2%,2%,2%,2%;
+    margin: 10%;
+}
+/* .{
+    color: #46C6CE;
+} */
+

@@ -1,0 +1,58 @@
+<!-- <div class="modal-header text-center ">
+  <h5 class="modal-title" style="text-align: center;">Apply Now</h5>
+</div>
+<div class="modal-body">
+  <form [formGroup]="applicationForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" class="form-control" formControlName="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="resume" class="form-label">Resume</label>
+      <input type="file" id="resume" class="form-control" formControlName="resume" required>
+    </div>
+    <div class="mb-3">
+      <label for="linkedin" class="form-label">LinkedIn Profile Link</label>
+      <input type="url" id="linkedin" class="form-control" formControlName="linkedin">
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary">Submit Application</button>
+    </div>
+  </form>
+</div>
+
+
+ -->
+
+
+ <div class="modal-header text-center">
+  <h5 class="modal-title w-100">Apply Now</h5>
+</div>
+<div class="modal-body">
+  <form [formGroup]="applicationForm" (ngSubmit)="onSubmit()" class="p-3">
+    <div class="mb-4">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" id="name" class="form-control form-control-lg" formControlName="name" required>
+    </div>
+    <div class="mb-4">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" id="email" class="form-control form-control-lg" formControlName="email" required>
+    </div>
+    <div class="mb-4">
+      <label for="resume" class="form-label">Resume</label>
+      <input type="file" id="resume" class="form-control form-control-lg" formControlName="resume" required>
+    </div>
+    <div class="mb-4">
+      <label for="linkedin" class="form-label">LinkedIn Profile Link</label>
+      <input type="url" id="linkedin" class="form-control form-control-lg" formControlName="linkedin">
+    </div>
+    <div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary btn-lg">Submit Application</button>
+    </div>
+  </form>
+</div>
+

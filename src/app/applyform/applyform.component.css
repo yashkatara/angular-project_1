@@ -1,0 +1,33 @@
+.modal-header {
+  background-color: #0056b3; /* Primary color */
+  color: white;
+}
+
+.modal-title {
+  margin: auto;
+  color: #ffffff;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #004085; /* Darker primary color for button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #002752; /* Even darker shade on hover */
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Adjust the file input to match the rest of the form */
+.form-control[type="file"] {
+  height: auto;
+  padding: 0.375rem 0.75rem;
+}

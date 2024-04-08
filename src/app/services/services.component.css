@@ -1,0 +1,201 @@
+.containe{
+ 
+  background-image: url('../../assets/bg.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  margin: 0%;
+  padding: 0%;
+}
+.row{
+    text-align: center;
+    align-items: center;
+    /* background-color: whitesmoke; */
+}
+.control-group{
+    align-items: center;
+    align-content: flex-end;
+}
+#contactForm_enq{
+  align-items: center;
+}
+
+
+
+
+
+
+  
+  /* Style adjustments for the button to lift it slightly above the footer */
+  #sendMessageButton {
+    margin-top: 20px; /* Adds space above the button */
+    margin-bottom: 40px; /* Adds space below the button, adjust this value to lift it higher or lower */
+    background-color: #194376;
+    color:azure
+  }
+  .img-container {
+    /* display: flex; */
+    justify-content: center; /* Centers the images horizontally */
+    align-items: center; /* Centers the images vertically */
+    gap: 20px; /* Adjusts the gap between the images */
+  }
+  
+  .img img {
+    display: block; /* Removes default inline behavior to remove bottom space */
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+  
+
+
+  /* .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  .card i {
+    margin-right: 10px;
+  }
+  .info {
+    margin-bottom: 10px;
+  }
+  .info p {
+    margin: 5px 0;
+  } */
+
+
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    transition: box-shadow 0.3s;
+    display: flex;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(235, 5, 5, 0.2);
+  }
+  .card i {
+    margin-right: 10px;
+  }
+  .info {
+    margin-bottom: 10px;
+  }
+  .info p {
+    margin: 5px 0;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(100% - 20px); /* Full width on smaller screens */
+    }
+  }
+
+
+
+
+
+  /* .icon {
+    width: 50px; 
+    height: 80px; 
+    margin-left: 0px; 
+  } */
+
+
+
+
+
+/* Increase form size */
+form {
+  width: 100%; /* Set form width to 100% of its container */
+  max-width: 1100px; /* Set maximum width for better readability */
+}
+
+/* Increase input field size */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Set input field width to 100% of its container */
+  padding: 10px; /* Increase padding for better spacing */
+  font-size: 16px; /* Increase font size for better readability */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  box-sizing: border-box; /* Include padding and border in total width/height */
+  margin-bottom: 15px; /* Add margin between input fields */
+}
+
+/* Increase button size */
+button[type="submit"] {
+  padding: 12px 20px; /* Increase padding for button */
+  font-size: 16px; /* Increase font size for better readability */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: #194673; /* Change button background color */
+  color: #fff; /* Change button text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button[type="submit"]:hover {
+  background-color: #194673; /* Change button background color on hover */
+}
+
+
+
+
+
+/* .custom-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+} */

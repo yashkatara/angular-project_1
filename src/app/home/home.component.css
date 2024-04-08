@@ -1,0 +1,128 @@
+.carousel-inner {
+    height: 500px;
+}
+
+.second-div {
+    margin-top: 5px;
+    background-color: 	#87CEEB;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.second-div h1 {
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.second-div h3 {
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .second-div h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+    }
+  
+    .second-div h3 {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  }
+
+.card {
+    margin-top: 20px;
+    border-radius: 15%;
+    background-color: #f3f6ff;
+    text-align: center;
+    width: 325px;
+}
+
+.card-text {
+    color: #757575;
+    padding-bottom: 50px;
+}
+
+.card-title {
+    padding-top: 25px;
+    color: #46C6CE !important;
+    font-weight: 800;
+}
+
+.img {
+    padding-top: 100px;
+    width: 425px;
+}
+
+.contain {
+    padding-top: 150px;
+    text-align: center;
+
+}
+
+.contain h1 {
+    font-weight: 800;
+    color: #194376;
+}
+
+.contain h5 {
+    margin-top: 25px;
+    color: #194376;
+}
+
+.login-btn {
+    height: 40px;
+    width: 100px !important;
+    border-radius: 0%;
+    background-color: #194376;
+    border-radius: 20px !important;
+    color: #fff;
+}
+
+.Client {
+    color: #194376;
+    text-align: center;
+}
+
+.cli {
+    color: #194376;
+    text-align: center;
+}
+
+.form-control{
+    height: 50px;
+    margin: 10px 0 10px 0;
+    border-radius: 0;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 0%;
+    margin-top: 30px;
+}
+
+
+.logo-container {
+    display: flex; /* Align logos horizontally */
+     /* Enable horizontal scrolling */
+    gap: 20px; /* Optional: Adds some space between logos */
+    padding: 20px 0; /* Optional: Adds some vertical padding */
+  }
+  
+  .client-logo {
+    flex: 0 0 auto; /* Prevent logos from stretching or shrinking */
+    max-width: 100px; /* Adjust based on your logo sizes */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  @media (max-width: 768px) {
+    .client-logo {
+      max-width: 80px; /* Smaller logos on smaller screens */
+    }
+    .logo-container {
+      gap: 10px; /* Less space between logos on smaller screens */
+    }
+  }
+  

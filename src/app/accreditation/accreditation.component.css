@@ -1,0 +1,28 @@
+.containe{
+    /* background-color: #46c6ce; */
+    background-image: url('../../assets/bg.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+}
+  .image-border{
+    background-color: #f3f6ff;
+    border: 2px solid #194376;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+  }
+
+
+
+
+  
+.image-grow {
+  transition: transform 0.5s ease;
+}
+
+.image-grow:hover {
+  transform: scale(1.2); /* Adjust scale value as needed */
+}
+
